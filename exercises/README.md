@@ -919,13 +919,13 @@ The problem tests the ability to use loops and conditional statements to calcula
 The exercises provided range from understanding conditional statements to implementing complex branching logic. Here's a summary of the exercises ordered by difficulty, starting with the easiest and moving to more challenging problems.
 
 ## Easy 😊
-Total: 10
+Total: 12
 
 ## Medium 🔥
-Total: 19
+Total: 12
 
 ## Hard 🥵
-Total: 18
+Total: 12
 
 Each exercise is designed to challenge different aspects of problem-solving, from simple arithmetic to complex logical reasoning. The estimated completion time for the exercises ranges from 5 minutes for the simplest tasks to 25 minutes for the most complex ones. This gives an average expected time of approximately 10-15 minutes per exercise, depending on the student's prior knowledge and experience.
 
