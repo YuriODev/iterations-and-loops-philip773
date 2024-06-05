@@ -285,52 +285,6 @@ The problem tests the ability to use loops and conditional statements to calcula
 The problem tests the ability to use loops and conditional statements to calculate the sum of a sequence of numbers.
 
 
-## Exercise 13: Password Validation - Easy 😊 (Est. Time: 5 mins | Points: 10)
-
-**Problem:** Write a program to prompt the user for a password. If the user enters the wrong password, the program should display an error message and prompt the user to try again. If the user enters the correct password, the program should display a success message.
-
-### Input:
-- An integer representing the password.
-- A sequence of integers representing the password entered by the user.
-
-### Output:
-- A message indicating whether the password is correct or incorrect.
-
-### Examples:
-
-| No. | Inputs | Outputs |
-| --- | ------ | ------- |
-| 1   | 12345  | 111<br>Error<br>45<br>Error<br>12345<br>Done |
-| 2   | 123    | 111<br>Error<br>45<br>Error<br>12345<br>Error<br>123<br>Done |
-| 3   | 111    | 111<br>Done |
-
-### Note:
-
-The problem tests the ability to use loops and conditional statements to validate user input.
-
-## Exercise 14: Count of Zeros - Easy 😊 (Est. Time: 5 mins | Points: 10)
-
-**Problem:** Write a program to determine how many of `n` numbers are equal to zero and output this count.
-
-### Input:
-- An integer `n` representing the number of integers to be entered.
-- `n` integers representing the numbers.
-
-### Output:
-- An integer representing the count of numbers that are equal to zero.
-
-### Examples:
-
-| No. | Inputs | Outputs |
-| --- | ------ | ------- |
-| 1   | 4<br>0<br>23<br>11<br>0 | 2 |
-| 2   | 3<br>0<br>0<br>0 | 3 |
-| 3   | 5<br>1<br>2<br>3<br>4<br>5 | 0 |
-
-### Note:
-
-The problem tests the ability to use loops and conditional statements to count the number of occurrences of a specific value.
-
 ## Exercise 16: Staircase Pattern - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
 **Problem:** Write a program to draw a staircase as shown in the output for a given value of `n`.
 
@@ -566,57 +520,6 @@ The problem tests the ability to use loops and conditional statements to calcula
 
 The problem tests the ability to use loops and conditional statements to calculate the average of a sequence of numbers.
 
-## Exercise 24: Even Numbers - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
-
-**Problem:** Write a program to determine the number of even elements in a sequence that ends with the number `0`. The number `0` is not included in the sequence, but is used as a sign of its end.
-
-### Input:
-
-- A sequence of integers that ends with the number `0`.
-
-### Output:
-
-- An integer representing the number of even elements in the sequence.
-
-### Examples:
-
-| No. | Inputs | Outputs |
-| --- | ------ | ------- |
-| 1   | 3<br>6<br>9<br>8<br>0 | 2 |
-| 2 | 1<br>2<br>3<br>4<br>5<br>0 | 2 |
-| 3 | 10<br>20<br>30<br>40<br>50<br>0 | 5 |
-
-### Note:
-
-The problem tests the ability to use loops and conditional statements to count the number of occurrences of a specific value.
-
-
-## Exercise 25: Car Distance - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
-
-**Problem:** Write a program to determine the number of days it takes for a car to cover a distance greater than `t` km, where the car covers `d` km on the first day and increases its distance by 10% each day.
-
-### Input:
-
-- Two integers representing the distance `d` and the target distance `t`.
-
-### Output:
-
-- A floating-point number representing the total distance covered and an integer representing the number of days it takes to cover a distance greater than `t` km.
-
-### Examples:
-
-| No. | Inputs | Outputs |
-| --- | ------ | ------- |
-| 1   | 10<br>100 | 114.36 km, 8 days |
-| 2 | 20<br>50 | 66.20 km, 3 days |
-| 3 | 5<br>25 | 30.53 km, 5 days |
-| 4 | 1<br>10 | 11.44 km, 8 days |
-| 5 | 50<br>100 | 155.13 km, 3 days |
-
-### Note:
-
-The problem tests the ability to use loops and conditional statements to calculate the sum of a series.
-
 ## Exercise 26: Sum of Digits - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
 
 **Problem:** Write a program to determine the number of three-digit numbers, the sum of the digits of which is equal to a certain integer value `n`, which is entered by the user.
@@ -718,123 +621,6 @@ The problem tests the ability to use loops and conditional statements to calcula
 ### Note:
 
 The problem tests the ability to use loops and conditional statements to calculate the sum of the squares of a sequence of numbers.
-
-## Exercise 30: Amoeba Division - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
-
-**Problem:** A single-celled amoeba divides into `2` cells every `3` hours. Determine how many cells there will be after `t` hours if there was initially one amoeba.
-
-### Input:
-
-- An integer representing the number of hours `t`.
-
-### Output:
-
-- An integer representing the number of cells.
-
-### Examples:
-
-| No. | Inputs | Outputs |
-| --- | ------ | ------- |
-| 1   | 6 | 4 |
-| 2   | 9 | 8 |
-| 3   | 24 | 256 |
-
-## Exercise 31: Lowest Temperature - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
-
-**Problem:** Write a program to determine the lowest temperature over a period of time and whether the temperature has dropped below -18 degrees.
-
-### Input:
-
-- An integer representing the number of days.
-- `n` integers representing the temperatures for each day.
-
-### Output:
-
-- An integer representing the lowest temperature and a string representing whether the temperature has dropped below -15 degrees.
-
-### Examples:
-
-| No. | Inputs | Outputs |
-| --- | ------ | ------- |
-| 1   | 3<br>-20<br>2<br>-18 | -20<br>Yes |
-| 2   | 5<br>-10<br>-15<br>-20<br>-25<br>-30 | -30<br>Yes |
-| 3   | 7<br>-5<br>-10<br>-15<br>-20<br>-25<br>-30<br>-35 | -35<br>Yes |
-
-### Note:
-
-The problem tests the ability to use loops and conditional statements to calculate the lowest temperature and determine whether it has dropped below a certain value.
-
-## Exercise 32: Car Speeds - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
-
-**Problem:** Write a program to determine the difference between the maximum and minimum speeds of the cars and the number of cars whose speed did not exceed 30 km/h. The program receives the number of recorded cars `n` (1 ≤ n ≤ 30) as input, followed by their speeds. The speed values cannot be less than 1 or greater than 300. The program should first output the difference between the maximum and minimum speeds of the cars, then the number of cars whose speed did not exceed 30 km/h.
-
-### Input:
-
-- An integer representing the number of recorded cars `n` (1 ≤ n ≤ 30).
-- `n` integers representing the speeds of the cars.
-
-### Output:
-
-- An integer representing the difference between the maximum and minimum speeds of the cars.
-- An integer representing the number of cars whose speed did not exceed 30 km/h.
-
-### Examples:
-
-| No. | Inputs | Outputs |
-| --- | ------ | ------- |
-| 1   | 3<br>15<br>25<br>140 | 125<br>2 |
-| 2   | 5<br>10<br>20<br>30<br>40<br>50 | 40<br>3 |
-| 3   | 7<br>5<br>10<br>15<br>20<br>25<br>30<br>35 | 30<br>6 |
-
-### Note:
-
-The problem tests the ability to use loops and conditional statements to calculate the difference between the maximum and minimum speeds of the cars and the number of cars whose speed did not exceed a certain value.
-
-## Exercise 33: Two-Dimensional Table - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
-
-**Problem:** Write a program to output a two-dimensional square table of `n x n` numbers, where `n` is an integer entered by the user. The main diagonal of the table (from the top left value to the bottom right value) should contain `0`, above the main diagonal should be `1`, and below it should be `-1`. To display the table values nicely, use the tab character `\t`.
-
-### Input:
-
-- An integer representing the number `n`.
-
-### Output:
-
-- A two-dimensional square table of `n x n` numbers.
-
-### Examples:
-
-| No. | Inputs | Outputs |
-| --- | ------ | ------- |
-| 1   | 5      | 0  1  1  1  1<br>-1 0 1 1 1<br>-1 -1 0 1 1<br>-1 -1 -1 0 1<br>-1 -1 -1 -1 0 |
-| 2   | 3      | 0 1 1<br>-1 0 1<br>-1 -1 0 |
-| 3   | 7      | 0 1 1 1 1 1 1<br>-1 0 1 1 1 1 1<br>-1 -1 0 1 1 1 1<br>-1 -1 -1 0 1 1 1<br>-1 -1 -1 -1 0 1 1<br>-1 -1 -1 -1 -1 0 1<br>-1 -1 -1 -1 -1 -1 0 |
-
-
-### Note:
-
-The problem tests the ability to use loops and conditional statements to print a two-dimensional square table of numbers.
-
-## Exercise 34: Number Pattern - Medium 🔥 (Est. Time: 10-15 mins | Points: 20)
-
-**Problem:** Write a program to print a pattern of number characters as shown in the output for a given value of `n`.
-
-### Input:
-
-- An integer representing the number of rows in the pattern.
-
-### Output:
-
-- A pattern of number characters as shown in the examples.
-
-### Examples:
-
-| No. | Inputs | Outputs |
-| --- | ------ | ------- |
-| 1   | 5      | 1<br>12<br>123<br>1234<br>12345 |
-| 2   | 3      | 1<br>12<br>123 |
-| 3   | 7      | 1<br>12<br>123<br>1234<br>12345<br>123456<br>1234567 |
-
 
 ## Exercise 35: Odd Numbers - Hard 🥵 (Est. Time: 15-20 mins | Points: 30)
 
@@ -957,53 +743,6 @@ The problem tests the ability to use loops and conditional statements to determi
 The problem tests the ability to use loops and conditional statements to calculate the sum of the digits of an integer.
 
 
-## Exercise 40: Fibonacci Sequence - Hard 🥵 (Est. Time: 15-20 mins | Points: 30)
-**Problem:** Write a program to obtain the Fibonacci sequence from 0 to `n`, where `n` is an integer. The Fibonacci sequence is a series of numbers 0, 1, 1, 2, 3, 5, 8, 13, 21, .... Each subsequent number is found by adding the two numbers before it.
-
-### Input:
-
-- An integer `n`.
-
-### Output:
-
-- A sequence of numbers representing the Fibonacci sequence from 0 to `n`.
-
-### Examples:
-
-| No. | Inputs | Outputs |
-| --- | ------ | ------- |
-| 1   | 50 | 1 1 2 3 5 8 13 21 34 |
-| 2   | 100 | 1 1 2 3 5 8 13 21 34 55 89 |
-| 3   | 200 | 1 1 2 3 5 8 13 21 34 55 89 144 |
-
-### Note:
-
-The problem tests the ability to use loops and conditional statements to print a sequence of numbers.
-
-## Exercise 41: Fibonacci Sequence Number - Hard 🥵 (Est. Time: 15-20 mins | Points: 30)
-
-**Problem:** Write a program to obtain the Fibonacci sequence number. The Fibonacci sequence is a series of numbers 0, 1, 1, 2, 3, 5, 8, 13, 21, .... Each subsequent number is found by adding the two numbers before it.
-
-### Input:
-
-- An integer `n`.
-
-### Output:
-
-- An integer representing the `n`-th number in the Fibonacci sequence.
-
-### Examples:
-
-| No. | Inputs | Outputs |
-| --- | ------ | ------- |
-| 1   | 9 | 34 |
-| 2   | 3 | 2 |
-| 3   | 5 | 5 |
-
-### Note:
-
-The problem tests the ability to use loops and conditional statements to print a sequence of numbers.
-
 
 ## Exercise 42: Greater Than Next Element - Hard 🥵 (Est. Time: 15-20 mins | Points: 30)
 
@@ -1054,30 +793,6 @@ The problem tests the ability to use loops and conditional statements to count t
 
 The problem tests the ability to use loops and conditional statements to calculate the value of the second largest element in a sequence.
 
-
-## Exercise 44: Index of Largest Element - Hard 🥵 (Est. Time: 15-20 mins | Points: 30)
-
-**Problem:** Write a program to determine the index of the largest element in a sequence. The sequence consists of natural numbers and ends with the number `0`. The program should take into account that the sequence contains at least two numbers.
-
-### Input:
-
-- A sequence of integers that ends with the number `0`.
-
-### Output:
-
-- An integer representing the index of the largest element in the sequence.
-
-### Examples:
-
-| No. | Inputs | Outputs |
-| --- | ------ | ------- |
-| 1   | 4<br>2<br>6<br>9<br>5<br>0 | 3 |
-| 2   | 3<br>1<br>2<br>3<br>4<br>0 | 4 |
-| 3   | 5<br>1<br>2<br>3<br>4<br>5<br>0 | 4 |
-
-### Note:
-
-The problem tests the ability to use loops and conditional statements to calculate the index of the largest element in a sequence.
 
 ## Exercise 45: Sign Changes - Hard 🥵 (Est. Time: 15-20 mins | Points: 30)
 
@@ -1148,30 +863,6 @@ The problem tests the ability to use loops and conditional statements to calcula
 | 2   | 100 | 1 2 3 4 5 6 7 8 9 11 22 33 44 55 66 77 88 99 |
 | 3   | 200 | 1 2 3 4 5 6 7 8 9 11 22 33 44 55 66 77 88 99 101 111 121 131 141 151 161 171 181 191 |
 
-## Exercise 48: Number of Palindromes - Hard 🥵 (Est. Time: 15-20 mins | Points: 30)
-
-**Problem:** Write a program to determine the number of palindromes that do not exceed `n`, where `n` is an integer entered by the user.
-
-### Input:
-
-- An integer `n` (1 ≤ n ≤ 100000).
-
-### Output:
-
-- A number representing the number of palindromes that do not exceed `n`.
-
-### Examples:
-
-| No. | Inputs | Outputs |
-| --- | ------ | ------- |
-| 1   | 50 | 13 |
-| 2   | 100 | 18 |
-| 3   | 200 | 28 |
-
-### Note:
-
-The problem tests the ability to use loops and conditional statements to calculate the number of palindromes that do not exceed a certain value.
-
 ## Exercise 49: Palindromes in an Interval - Hard 🥵 (Est. Time: 15-20 mins | Points: 30)
 
 **Problem:** Two four-digit numbers `a` and `b` are entered. Print all four-digit numbers in the interval from `a` to `b` that are palindromes (read the same from left to right and from right to left).
@@ -1198,31 +889,6 @@ The problem tests the ability to use loops and conditional statements to calcula
 The problem tests the ability to use loops and conditional statements to calculate the number of palindromes that do not exceed a certain value.
 
 
-## Exercise 50: Number of Palindromes - Hard 🥵 (Est. Time: 15-20 mins | Points: 30)
-
-**Problem:** Write a program to determine the number of palindromes that do not exceed `n`, where `n` is an integer entered by the user.
-
-### Input:
-
-- An integer `n` (1 ≤ n ≤ 100000).
-
-### Output:
-
-- A number representing the number of palindromes that do not exceed `n`.
-
-### Examples:
-
-| No. | Inputs | Outputs |
-| --- | ------ | ------- |
-| 1   | 10 | 9 |
-| 2   | 50 | 13 |
-| 3   | 100 | 18 |
-| 4   | 200 | 27 |
-
-### Note:
-
-The problem tests the ability to use loops and conditional statements to calculate the number of palindromes that do not exceed a certain value.
-
 ## Exercise 51: Three Identical Digits - Hard 🥵 (Est. Time: 15-20 mins | Points: 30)
 
 **Problem:** Two four-digit numbers `a` and `b` are entered. Print all four-digit numbers in the interval from `a` to `b` that contain only three identical digits.
@@ -1245,53 +911,6 @@ The problem tests the ability to use loops and conditional statements to calcula
 
 
 
-## Exercise 52: Odd Numbers - Hard 🥵 (Est. Time: 15-20 mins | Points: 30)
-
-**Problem:** Two numbers `a` and `b` are entered. Print all odd numbers from the interval from `a` to `b` (b ≤ a). Write a program without using a branching instruction.
-
-### Input:
-
-- Two integers `a` and `b` (a ≥ b).
-
-### Output:
-
-- A sequence of odd numbers from the interval from `a` to `b`.
-
-### Examples:
-
-| No. | Inputs | Outputs |
-| --- | ------ | ------- |
-| 1   | 10<br>1 | 9 7 5 3 1 |
-| 2   | 20<br>1 | 19 17 15 13 11 9 7 5 3 1 |
-| 3   | 30<br>1 | 29 27 25 23 21 19 17 15 13 11 9 7 5 3 1 |
-
-### Note:
-
-The problem tests the ability to use loops to print a sequence of numbers.
-
-## Exercise 53: Even Numbers - Hard 🥵 (Est. Time: 15-20 mins | Points: 30)
-
-**Problem:** Two numbers `a` and `b` are entered. Print all even numbers from the interval from `a` to `b` (a ≤ b). Write a program without using a branching instruction.
-
-### Input:
-
-- Two integers `a` and `b` (a ≤ b).
-
-### Output:
-
-- A sequence of even numbers from the interval from `a` to `b`.
-
-### Examples:
-
-| No. | Inputs | Outputs |
-| --- | ------ | ------- |
-| 1   | 1<br>20 | 2 4 6 8 10 12 14 16 18 20 |
-| 2   | 1<br>30 | 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 |
-| 3   | 1<br>40 | 2 4 6 8 10 12 14 16 18 20 22 24 26 28 30 32 34 36 38 40 |
-
-### Note:
-
-The problem tests the ability to use loops to print a sequence of numbers.
 
 
 
@@ -1300,7 +919,7 @@ The problem tests the ability to use loops to print a sequence of numbers.
 The exercises provided range from understanding conditional statements to implementing complex branching logic. Here's a summary of the exercises ordered by difficulty, starting with the easiest and moving to more challenging problems.
 
 ## Easy 😊
-Total: 14
+Total: 10
 
 ## Medium 🔥
 Total: 19
